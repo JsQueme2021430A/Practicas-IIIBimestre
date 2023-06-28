@@ -1,0 +1,22 @@
+#define ch A0
+float raw_sensor = 0;
+float voltageR2 = 0;
+float R1 = 0;
+void setup()
+{
+ Serial.begin(9600);
+ pinMode(ch, INPUT);
+}
+
+void loop()
+{
+raw_sensor = analogRead(ch);
+  Serial.println("El voltage en R2 es   ");
+  voltageR2 = (raw_sensor * 5 )/ 1024;
+  Serial.println(voltageR2);
+  Serial.println("El voltage en R1 es   ");
+  R1 = 5 - voltageR2;
+  Serial.println(R1);
+  delay(1000);
+
+}
