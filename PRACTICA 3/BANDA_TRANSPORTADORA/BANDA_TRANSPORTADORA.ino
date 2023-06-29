@@ -5,8 +5,8 @@
  * Grado: Quinto
  * Sección: A
  * Curso: Taller de electronica digital y reparación de computadoras I
- * Nombre:Pablo David Hernandez Ajiataz
- * Carnet: 2022472
+ * Nombre:Diego Queme Andrino 
+ * Carnet: 2021430
  * Proyecto: Clasificadora de colores - Bimestre III
 */
 #include <Servo.h>
