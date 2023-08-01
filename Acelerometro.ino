@@ -12,7 +12,9 @@ Proyecto; Nivel de burbuja / Acelerometro
 #include <SparkFun_ADXL345.h>
 #include <LedControl.h>
 ADXL345 acelerometro = ADXL345();
-LedControl matrix =LedControl(12,11,10);
+#define dataPin0   12   
+#define dataClock0 10  
+#define dataLoad0  11 
 
 int x;
 int y;
